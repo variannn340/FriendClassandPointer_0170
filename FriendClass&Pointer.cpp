@@ -39,5 +39,10 @@ public:
         cin >> d1 >> d2 >> s;
     }
 
+    float luas() {
+        return 0.5 * d1 * d2;
+    }
+
+    
 
 };

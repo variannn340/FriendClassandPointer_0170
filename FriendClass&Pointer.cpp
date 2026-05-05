@@ -53,6 +53,11 @@ public:
         cout << "Keliling: " << keliling() << endl;
     }
 
-    
+    // access friend
+    void akses(LayangLayang l) {
+        cout << "Keliling Layang-Layang: " << l.keliling() << endl;
+    }
 
 };
+
+

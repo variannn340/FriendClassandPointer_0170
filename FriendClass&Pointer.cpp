@@ -26,4 +26,10 @@ public:
         cout << "Keliling: " << keliling() << endl;
     }
 
+    friend class BelahKetupat;
+
 };
+
+class BelahKetupat {
+    
+}

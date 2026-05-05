@@ -43,6 +43,10 @@ public:
         return 0.5 * d1 * d2;
     }
 
+    float keliling() {
+        return 4 * s;
+    }
+
     
 
 };

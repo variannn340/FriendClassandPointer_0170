@@ -20,4 +20,10 @@ public:
         return 2 * (s1 + s2);
     }
 
+     void output() {
+        cout << "Layang-Layang\n";
+        cout << "Luas: " << luas() << endl;
+        cout << "Keliling: " << keliling() << endl;
+    }
+
 };

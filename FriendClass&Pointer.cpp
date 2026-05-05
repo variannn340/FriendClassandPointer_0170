@@ -47,6 +47,12 @@ public:
         return 4 * s;
     }
 
+    void output() {
+        cout << "Belah Ketupat\n";
+        cout << "Luas: " << luas() << endl;
+        cout << "Keliling: " << keliling() << endl;
+    }
+
     
 
 };

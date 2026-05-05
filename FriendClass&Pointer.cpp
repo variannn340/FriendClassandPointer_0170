@@ -34,7 +34,10 @@ class BelahKetupat {
 private:
     float d1, d2, s;
 
-
+public:
+    void input() {
+        cin >> d1 >> d2 >> s;
+    }
 
 
 };

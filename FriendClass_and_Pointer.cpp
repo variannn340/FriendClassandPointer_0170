@@ -61,7 +61,20 @@ public:
 };
 
 int main() {
-    
+
+    LayangLayang l;
+    BelahKetupat b;
+
+    l.input();
+    b.input();
+
+    l.output();
+    b.output();
+
+    b.akses(l);
+
+    return 0;
+
 }
 
 

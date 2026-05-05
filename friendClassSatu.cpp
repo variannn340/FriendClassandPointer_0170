@@ -35,3 +35,7 @@ void siswa::setId(int pId)
 {
     id = pId;
 }
+int main()
+{
+    
+}

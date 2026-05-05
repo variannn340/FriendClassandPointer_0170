@@ -31,5 +31,10 @@ public:
 };
 
 class BelahKetupat {
-    
-}
+private:
+    float d1, d2, s;
+
+
+
+
+};

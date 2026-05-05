@@ -9,20 +9,24 @@ private:
 
 public:
     void input() {
-        cin >> d1 >> d2 >> s1 >> s2;
+        cout << "=== Input Layang-Layang ===" << endl;
+        cout << "Diagonal 1: "; cin >> d1;
+        cout << "Diagonal 2: "; cin >> d2;
+        cout << "Sisi 1: ";     cin >> s1;
+        cout << "Sisi 2: ";     cin >> s2;
     }
 
     float luas() {
-        return 0.5 * d1 * d2;
+        {return 0.5 * d1 * d2;}
     }
 
      float keliling() {
-        return 2 * (s1 + s2);
+        {return 2 * (s1 + s2);}
     }
 
      void output() {
-        cout << "Layang-Layang\n";
-        cout << "Luas: " << luas() << endl;
+        cout << "\nLayang-Layang" << endl;
+        cout << "Luas: "     << luas()     << endl;
         cout << "Keliling: " << keliling() << endl;
     }
 
@@ -36,20 +40,23 @@ private:
 
 public:
     void input() {
-        cin >> d1 >> d2 >> s;
+        cout << "\n=== Input Belah Ketupat ===" << endl;
+        cout << "Diagonal 1: "; cin >> d1;
+        cout << "Diagonal 2: "; cin >> d2;
+        cout << "Sisi: ";       cin >> s;
     }
 
     float luas() {
-        return 0.5 * d1 * d2;
+        {return 0.5 * d1 * d2;}
     }
 
     float keliling() {
-        return 4 * s;
+        {return 4 * s;}
     }
 
     void output() {
-        cout << "Belah Ketupat\n";
-        cout << "Luas: " << luas() << endl;
+        cout << "\nBelah Ketupat" << endl;
+        cout << "Luas: "     << luas()     << endl;
         cout << "Keliling: " << keliling() << endl;
     }
 
